@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(fa706b36-5f8b-4313-bb51-9859c8a0ff25), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1bcb8599, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/karanshah/CSE562/kshah23/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mNonzero exit code: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) Nonzero exit code: 1[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 10 s, completed 14 Mar, 2021 7:47:17 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

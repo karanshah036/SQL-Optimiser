@@ -1,0 +1,301 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/FilterIterator.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/FilterIterator.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.expressions.Expression[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/FilterIterator.scala:6:101: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0mcase class FilterIterator(boundRef:Expression,childIterator:Iterator[InternalRow]) extends Iterator[InternalRow][0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/FilterIterator.scala:6:36: not found: type Expression[0m
+[0m[[0m[31merror[0m] [0m[0mcase class FilterIterator(boundRef:Expression,childIterator:Iterator[InternalRow]) extends Iterator[InternalRow][0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/FilterIterator.scala:6:70: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0mcase class FilterIterator(boundRef:Expression,childIterator:Iterator[InternalRow]) extends Iterator[InternalRow][0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/FilterIterator.scala:9:17: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0m    def next(): InternalRow = [0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/JoinIterator.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/JoinIterator.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.expressions[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/JoinIterator.scala:7:163: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0mcase class JoinIterator(boundCondition: expressions.Expression,leftChildIterator:Iterator[InternalRow],righrChildIterator:Iterator[InternalRow]) extends Iterator[InternalRow] [0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/JoinIterator.scala:7:41: not found: value expressions[0m
+[0m[[0m[31merror[0m] [0m[0mcase class JoinIterator(boundCondition: expressions.Expression,leftChildIterator:Iterator[InternalRow],righrChildIterator:Iterator[InternalRow]) extends Iterator[InternalRow] [0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/JoinIterator.scala:7:91: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0mcase class JoinIterator(boundCondition: expressions.Expression,leftChildIterator:Iterator[InternalRow],righrChildIterator:Iterator[InternalRow]) extends Iterator[InternalRow] [0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/JoinIterator.scala:7:132: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0mcase class JoinIterator(boundCondition: expressions.Expression,leftChildIterator:Iterator[InternalRow],righrChildIterator:Iterator[InternalRow]) extends Iterator[InternalRow] [0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/JoinIterator.scala:10:17: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0m    def next(): InternalRow = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:6:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.unsafe.types.UTF8String[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:7:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.execution.SparkSqlParser[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:8:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.logical.LogicalPlan[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:9:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.logical.CreateTableStatement[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:10:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.types._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:11:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.analysis.UnresolvedRelation[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:12:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.logical.LeafNode[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:13:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.expressions.AttributeSeq[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:14:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.expressions.Attribute[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:15:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.commons.lang3.ObjectUtils[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:16:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.analysis.UnresolvedStar[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:17:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.expressions.AttributeReference[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/MyTable.scala:8:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.types._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/MyTable.scala:18:57: not found: type StructType[0m
+[0m[[0m[31merror[0m] [0m[0mcase class MyTable(tableName: Seq[String], tableSchema: StructType,location: Option[String]) extends LeafNode[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/tableIterator.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/tableIterator.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.types._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/tableIterator.scala:10:40: not found: type StructType[0m
+[0m[[0m[31merror[0m] [0m[0mcase class TableIterator(tableSchema : StructType,location:Option[String]) extends Iterator[InternalRow][0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:20:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.analysis.UnresolvedAttribute[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:21:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.logical.Project[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:23:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.expressions.NamedExpression[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:24:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.logical.Filter[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:25:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:26:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.logical.Join[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:27:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.expressions.EqualTo[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:28:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.expressions[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:29:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.expressions.Expression[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:30:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.NaturalJoin[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:31:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.Inner[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:32:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.internal.SQLConf[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:33:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.expressions.BoundReference[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:34:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.expressions.codegen.{CodegenContext, ExprCode}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:35:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.logical.Union[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:36:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.analysis.UnresolvedAlias[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:37:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.expressions.Alias[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:38:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.logical.SubqueryAlias[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:39:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.logical.Subquery[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:40:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.expressions.JoinedRow[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:41:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.logical.Sort[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:42:19: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport _root_.org.apache.spark.sql.catalyst.expressions.SortOrder[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:43:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.logical.Limit[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:44:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.logical.GlobalLimit[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:45:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.logical.LocalLimit[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:46:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.expressions.Literal[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/MyTable.scala:10:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.plans.logical.LeafNode[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/MyTable.scala:18:102: not found: type LeafNode[0m
+[0m[[0m[31merror[0m] [0m[0mcase class MyTable(tableName: Seq[String], tableSchema: StructType,location: Option[String]) extends LeafNode[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:58:26: not found: type LogicalPlan[0m
+[0m[[0m[31merror[0m] [0m[0m        var logical_plan:LogicalPlan=null;[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:59:30: not found: type LogicalPlan[0m
+[0m[[0m[31merror[0m] [0m[0m        var resolvedRelation:LogicalPlan=null;[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:60:36: not found: type LogicalPlan[0m
+[0m[[0m[31merror[0m] [0m[0m        def parseSql(sql: String): LogicalPlan =  new SparkSqlParser().parsePlan(sql)[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:60:55: not found: type SparkSqlParser[0m
+[0m[[0m[31merror[0m] [0m[0m        def parseSql(sql: String): LogicalPlan =  new SparkSqlParser().parsePlan(sql)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:61:73: not found: type Expression[0m
+[0m[[0m[31merror[0m] [0m[0m        def bindReferences(expression:Expression , child:LogicalPlan) : Expression =[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:61:39: not found: type Expression[0m
+[0m[[0m[31merror[0m] [0m[0m        def bindReferences(expression:Expression , child:LogicalPlan) : Expression =[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:61:58: not found: type LogicalPlan[0m
+[0m[[0m[31merror[0m] [0m[0m        def bindReferences(expression:Expression , child:LogicalPlan) : Expression =[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:65:77: not found: type Expression[0m
+[0m[[0m[31merror[0m] [0m[0m        def bindReference(expression:Expression , input : Seq[Attribute]) : Expression =[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:65:38: not found: type Expression[0m
+[0m[[0m[31merror[0m] [0m[0m        def bindReference(expression:Expression , input : Seq[Attribute]) : Expression =[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:65:63: not found: type Attribute[0m
+[0m[[0m[31merror[0m] [0m[0m        def bindReference(expression:Expression , input : Seq[Attribute]) : Expression =[0m
+[0m[[0m[31merror[0m] [0m[0m                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:76:23: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0m        def compare(a:InternalRow,b:InternalRow,order:Seq[SortOrder]) : Boolean=[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:76:37: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0m        def compare(a:InternalRow,b:InternalRow,order:Seq[SortOrder]) : Boolean=[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:76:59: not found: type SortOrder[0m
+[0m[[0m[31merror[0m] [0m[0m        def compare(a:InternalRow,b:InternalRow,order:Seq[SortOrder]) : Boolean=[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:80:62: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0m        def startEval(logical_plan : LogicalPlan) : Iterator[InternalRow] =[0m
+[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:80:38: not found: type LogicalPlan[0m
+[0m[[0m[31merror[0m] [0m[0m        def startEval(logical_plan : LogicalPlan) : Iterator[InternalRow] =[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:84:22: not found: value Project[0m
+[0m[[0m[31merror[0m] [0m[0m                case Project(projectList, child)=> [0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:86:50: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0m                    var childIterator : Iterator[InternalRow] = startEval(child)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/ProjectIterator.scala:6:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.expressions.Expression[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/ProjectIterator.scala:8:44: not found: type Expression[0m
+[0m[[0m[31merror[0m] [0m[0mcase class ProjectIterator(boundedRef: Seq[Expression], childIterator : Iterator[InternalRow]) extends Iterator[InternalRow][0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/ProjectIterator.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/ProjectIterator.scala:8:82: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0mcase class ProjectIterator(boundedRef: Seq[Expression], childIterator : Iterator[InternalRow]) extends Iterator[InternalRow][0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/ProjectIterator.scala:8:113: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0mcase class ProjectIterator(boundedRef: Seq[Expression], childIterator : Iterator[InternalRow]) extends Iterator[InternalRow][0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:90:22: not found: value Filter[0m
+[0m[[0m[31merror[0m] [0m[0m                case Filter(condition, child) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:92:51: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0m                     var childIterator : Iterator[InternalRow] = startEval(child)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:93:43: not found: type Expression[0m
+[0m[[0m[31merror[0m] [0m[0m                     var boundCondition : Expression = bindReferences(condition,child)[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/tableIterator.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/tableIterator.scala:10:93: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0mcase class TableIterator(tableSchema : StructType,location:Option[String]) extends Iterator[InternalRow][0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:100:22: not found: value Union[0m
+[0m[[0m[31merror[0m] [0m[0m                case Union(children:Seq[LogicalPlan],_,_)=>[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:100:41: not found: type LogicalPlan[0m
+[0m[[0m[31merror[0m] [0m[0m                case Union(children:Seq[LogicalPlan],_,_)=>[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/UnionIterator.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.catalyst.InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/UnionIterator.scala:5:49: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0mcase class UnionIterator(firstIterator:Iterator[InternalRow],secondIterator:Iterator[InternalRow]) extends Iterator[InternalRow][0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/UnionIterator.scala:5:86: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0mcase class UnionIterator(firstIterator:Iterator[InternalRow],secondIterator:Iterator[InternalRow]) extends Iterator[InternalRow][0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/UnionIterator.scala:5:117: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0mcase class UnionIterator(firstIterator:Iterator[InternalRow],secondIterator:Iterator[InternalRow]) extends Iterator[InternalRow][0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:107:22: not found: value SubqueryAlias[0m
+[0m[[0m[31merror[0m] [0m[0m                case SubqueryAlias(identifier,child)=>[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:111:30: not found: type Subquery[0m
+[0m[[0m[31merror[0m] [0m[0m                case subplan:Subquery => startEval(subplan.children(0))[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:112:22: not found: value Sort[0m
+[0m[[0m[31merror[0m] [0m[0m                case Sort(order,global,child)=>[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:120:22: not found: value GlobalLimit[0m
+[0m[[0m[31merror[0m] [0m[0m                case GlobalLimit(limitExpr,child)=>[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:125:22: not found: value LocalLimit[0m
+[0m[[0m[31merror[0m] [0m[0m                case LocalLimit(limitExpr,child)=>[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:130:22: not found: value Join[0m
+[0m[[0m[31merror[0m] [0m[0m                case Join(left,right,joinType,condition,hint) => [0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:132:54: not found: type InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0m                    var leftChildIterator : Iterator[InternalRow] = startEval(left)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:140:33: not found: type JoinedRow[0m
+[0m[[0m[31merror[0m] [0m[0m                            new JoinedRow(leftRow, rightRow)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:147:84: not found: type NamedExpression[0m
+[0m[[0m[31merror[0m] [0m[0m        def resolveProject(projectList:Seq[NamedExpression],child:LogicalPlan):Seq[NamedExpression]=[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m132 errors found[0m

@@ -1,0 +1,4 @@
+[debug] [kshah23-test] Classpath dependencies List()
+[debug] [kshah23-test] Dependencies from configurations List(kshah23)
+[debug] Bloop wrote the configuration of project 'kshah23-test' to '/Users/karanshah/CSE562/kshah23/.bloop/kshah23-test.json'
+[success] Generated .bloop/kshah23-test.json

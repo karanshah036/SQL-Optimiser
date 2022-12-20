@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(0a6e3d5b-a545-4253-9602-8343828fbda4), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@559c4e06, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0mNonzero exit code: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) Nonzero exit code: 1[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3110 s (51:50), completed 14 Mar, 2021 8:39:08 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

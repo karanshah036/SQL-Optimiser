@@ -1,0 +1,47 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Done"})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@24ac87a, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"76","parents":[]},"eventTime":1616132432363,"message":"Compiling kshah23","dataKind":"compile-task","data":{"target":{"uri":"file:/Users/karanshah/CSE562/kshah23/#kshah23/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /Users/karanshah/CSE562/kshah23/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 2 Scala sources to /Users/karanshah/CSE562/kshah23/target/scala-2.12/classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala"},"buildTarget":{"uri":"file:/Users/karanshah/CSE562/kshah23/#kshah23/Compile"},"diagnostics":[{"range":{"start":{"line":94,"character":16},"end":{"line":94,"character":17}},"severity":1,"source":"sbt","message":"not found: value boundReference"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:95:17: not found: value boundReference[0m
+[0m[[0m[31merror[0m] [0m[0m                boundReference(attrRef,child.output)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:95:17: not found: value boundReference"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                boundReference(attrRef,child.output)"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala"},"buildTarget":{"uri":"file:/Users/karanshah/CSE562/kshah23/#kshah23/Compile"},"diagnostics":[{"range":{"start":{"line":130,"character":31},"end":{"line":130,"character":32}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : Unit\n required: Iterator[org.apache.spark.sql.catalyst.InternalRow]"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:131:32: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: Iterator[org.apache.spark.sql.catalyst.InternalRow][0m
+[0m[[0m[31merror[0m] [0m[0m                    evalProject(projectList,child,startEval(child))[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:131:32: type mismatch;\n found   : Unit\n required: Iterator[org.apache.spark.sql.catalyst.InternalRow]"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                    evalProject(projectList,child,startEval(child))"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                               ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/karanshah/CSE562/kshah23/src/main/scala/microbase/ProjectIterator.scala"},"buildTarget":{"uri":"file:/Users/karanshah/CSE562/kshah23/#kshah23/Compile"},"diagnostics":[{"range":{"start":{"line":9,"character":4},"end":{"line":9,"character":5}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : Unit\n required: org.apache.spark.sql.catalyst.InternalRow"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/ProjectIterator.scala:10:5: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: org.apache.spark.sql.catalyst.InternalRow[0m
+[0m[[0m[31merror[0m] [0m[0m    {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/ProjectIterator.scala:10:5: type mismatch;\n found   : Unit\n required: org.apache.spark.sql.catalyst.InternalRow"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"    {"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"    ^"})[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"three errors found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/karanshah/CSE562/kshah23/src/main/scala/microbase/MyTable.scala"},"buildTarget":{"uri":"file:/Users/karanshah/CSE562/kshah23/#kshah23/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/karanshah/CSE562/kshah23/src/main/scala/microbase/ProjectIterator.scala"},"buildTarget":{"uri":"file:/Users/karanshah/CSE562/kshah23/#kshah23/Compile"},"diagnostics":[{"range":{"start":{"line":9,"character":4},"end":{"line":9,"character":5}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : Unit\n required: org.apache.spark.sql.catalyst.InternalRow"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala"},"buildTarget":{"uri":"file:/Users/karanshah/CSE562/kshah23/#kshah23/Compile"},"diagnostics":[{"range":{"start":{"line":94,"character":16},"end":{"line":94,"character":17}},"severity":1,"source":"sbt","message":"not found: value boundReference"},{"range":{"start":{"line":130,"character":31},"end":{"line":130,"character":32}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : Unit\n required: Iterator[org.apache.spark.sql.catalyst.InternalRow]"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/karanshah/CSE562/kshah23/src/main/scala/microbase/tableIterator.scala"},"buildTarget":{"uri":"file:/Users/karanshah/CSE562/kshah23/#kshah23/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"76","parents":[]},"eventTime":1616132432534,"message":"Compiled kshah23","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/Users/karanshah/CSE562/kshah23/#kshah23/Compile"},"errors":3,"warnings":0,"time":171}})[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 19 Mar, 2021 11:10:32 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Done"})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Done"})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@496e0f9d, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"77","parents":[]},"eventTime":1616132432605,"message":"Compiling kshah23","dataKind":"compile-task","data":{"target":{"uri":"file:/Users/karanshah/CSE562/kshah23/#kshah23/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /Users/karanshah/CSE562/kshah23/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 2 Scala sources to /Users/karanshah/CSE562/kshah23/target/scala-2.12/classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala"},"buildTarget":{"uri":"file:/Users/karanshah/CSE562/kshah23/#kshah23/Compile"},"diagnostics":[{"range":{"start":{"line":94,"character":16},"end":{"line":94,"character":17}},"severity":1,"source":"sbt","message":"not found: value boundReference"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:95:17: not found: value boundReference[0m
+[0m[[0m[31merror[0m] [0m[0m                boundReference(attrRef,child.output)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:95:17: not found: value boundReference"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                boundReference(attrRef,child.output)"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [true,null])[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:131:32: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: Iterator[org.apache.spark.sql.catalyst.InternalRow][0m
+[0m[[0m[31merror[0m] [0m[0m                    evalProject(projectList,child,startEval(child))[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m

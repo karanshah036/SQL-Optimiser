@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(07cc0820-5e57-46ca-a3e0-18a9bd7f10cb), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@5602e540, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/karanshah/CSE562/kshah23/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:159:55: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Seq[Equals][0m
+[0m[[0m[31merror[0m] [0m[0m required: Seq[org.apache.spark.sql.catalyst.expressions.NamedExpression][0m
+[0m[[0m[31merror[0m] [0m[0m                                    newList = newList :+ child.output[0m
+[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:166:33: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: org.apache.spark.sql.catalyst.plans.logical.LogicalPlan[0m
+[0m[[0m[31merror[0m] [0m[0m                            temp=Project(newList,child)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed 26 Mar, 2021 1:34:44 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(19c70874-0899-4720-995d-b1fc4d9f3757), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@43cc7951, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /Users/karanshah/CSE562/kshah23/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:151:133: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.collection.mutable.ArrayBuffer[org.apache.spark.sql.catalyst.expressions.Attribute][0m
+[0m[[0m[31merror[0m] [0m[0m required: Option[org.apache.spark.sql.catalyst.expressions.Expression][0m
+[0m[[0m[31merror[0m] [0m[0m                                        var newAttribute:Option[expressions.Expression] = scala.collection.mutable.ArrayBuffer.empty[Attribute][0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:158:66: value append is not a member of Option[org.apache.spark.sql.catalyst.expressions.Expression][0m
+[0m[[0m[31merror[0m] [0m[0m                                                    newAttribute.append(x)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:169:66: value append is not a member of Option[org.apache.spark.sql.catalyst.expressions.Expression][0m
+[0m[[0m[31merror[0m] [0m[0m                                                    newAttribute.append(x)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/karanshah/CSE562/kshah23/src/main/scala/microbase/Microbase.scala:174:57: not enough arguments for method apply: (number: Int)org.apache.spark.sql.catalyst.trees.TreeNode[_] in class TreeNode.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter number.[0m
+[0m[[0m[31merror[0m] [0m[0m                                        newAttribute.get()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 10 Mar, 2021 3:02:05 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
